@@ -12,12 +12,16 @@
             }
          ?></title>
 
-         <script src="<?php $theme_url ?>/script/script.js"></script>
+
+
+         <script src="<?php $theme_url?>/script/script.js" defer></script>
          <link rel="stylesheet" href="<?php $theme_url ?>/style.css">
+         <link rel="stylesheet" href="<?php $theme_url ?>/style/footer.css">
          <?php wp_head(); ?>
     </head>
     <body>
         <?php
+            echo  $theme_url. "/script/script.js"; // Výpis cesty k šabloně pro kontrolu
             get_header();
         ?>
 
