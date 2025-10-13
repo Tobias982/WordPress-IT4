@@ -1,7 +1,7 @@
 <header>
     <div class="wrapper">
         <div class="wrapper-logo">
-            <img src="/img/availability-svgrepo-com.svg" alt="">
+            <img src="\wp-content\themes\vlastni_sablona\img\988af0368404ceb08d69f60295065f2c.jpg" alt="">
         </div>
         <div class="wrapper-hamburger">
             <span></span>
